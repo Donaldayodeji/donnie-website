@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <style>
+        .top-bar{background-color: rgb(255, 94, 0) !important;}
+        .nav-link{ padding-right: 20px;
+            padding-top: 5px;
+       }
+        .navbar ul{ margin-right: 100px;}
+        .btn-outline{ background-color: rgb(255, 94, 0) !important;
+        border: none !important;
+    padding: 7px;}
+        .btn-outline:hover{ background-color: rgb(195, 92, 8) !important;}
+        .navbar b{ margin-left: 70px;}
+        .btn{border: 1px solid white;
+             }
+        .txt{ padding-top: 260px;
+        padding-bottom: 150px;
+    padding-left: 120px;
+background-image:url("./Images/bg_banner1.jpg") ;
+background-repeat: no-repeat;
+background-size: cover;}
+.c-item{ height: 600px;
+    background-size: cover;
+}
+.c-img{ height: 900px;
+object-fit: cover;}
+.carousel-caption{ margin-top:250px;
+text-align: left}
+.container{ flex-direction: column;}
+.info-box{display: flex; }
+
+.info-box img{width: 90px;
+margin-right: 10px;}
+#milestone{ padding: 20px;
+background: linear-gradient(rgba(255,94,0), rgba(255,94,0)), url(./Images/bg_banner2.jpg);
+}
+#milestone .display-4,
+#milestone p {
+    font-weight: 700;
+    color: white;
+}
+.services h6{ color: rgb(255, 94, 0);}
+.service-box{ padding: 12px;
+box-shadow: 4px 4px 16px rgba(70, 68, 68, 0);
+text-align: center;
+}
+.service-box h5{ margin-top: 24px;
+    margin-bottom: 12px;
+
+}
+.row{padding: 70px;}
+
+
+    </style>
+</head>
+<body>
+
+<div class="top-bar text-white">
+<p class="pt-2"><a> debra.holt@example.com </a> <a> (219)555-0114</a> </p>
+<div class="navbar d-flex bg-white text-black pt-3">
+<b class="fs-2 pb-3">Prixima.</b>
+<ul class="nav-item d-flex">
+<a class="nav-link active" href="#">Home</a>
+<a class="nav-link active" href="#">About</a>
+<a class="nav-link active" href="#">Services</a>
+<a class="nav-link active" href="#">Portfolio</a>
+<a class="nav-link active" href="#">Team</a>
+<a class="nav-link active" href="#">Reviews</a>
+<a class="nav-link active" href="#">Blog</a>
+<button class="btn btn-outline text-white Pb-1" type="menu">Contact</button>
+</ul>
+ </div>  
+</div>
+
+<div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+     
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="Images/bg_banner1.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption d-none d-md-block top-0 text-white ">
+            <p> WE CRAFT DIGITAL EXPERIENCES</p><br>
+            <h1> DESIGN DRIVEN FOR<br> PROFESSIONALS</h1><br>
+            <a><button class="btn btn-outline" type="button">GET STARTED</button> <button class="btn" type="button">Our work</button> </a> 
+
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="Images/bg_banner2.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption d-none d-md-block top-0">
+          <p class="">DESIGN DRIVEN FOR PROFESSIONALS</p><br>
+          <h1>WE CRAFT DIGITAL<br> EXPERIENCES</h1><br>
+          <a><button class="btn btn-outline" type="button">GET STARTED</button> <button class="btn btn-white" type="button">Our work</button> </a> 
+        </div>
+      </div>
+     
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true" ></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<br><br>
+<section>
+<div class="container">
+    <div class="row align-items-center justify-content-center">
+        <div class="col-lg-5">
+            <div class="row">
+            <div class="info-box col-12">
+        <img src="./Images/icon4.png">    
+            <div>
+            <h5> Digital Marketing</h5>
+            <p>It is a long established fact that a reader will be distracted by readable content of a page</p>
+         </div>
+    </div>
+            <div class="info-box col-12 mt-4">
+        <img src="./Images/icon5.png">    
+            <div>
+            <h5> Digital Marketing</h5>
+            <p>It is a long established fact that a reader will be distracted by readable content of a page</p>
+         </div>
+    </div>
+            <div class="info-box col-12 mt-4">
+        <img src="./Images/icon6.png">    
+            <div>
+            <h5> Digital Marketing</h5>
+            <p>It is a long established fact that a reader will be distracted by readable content of a page</p>
+         </div>
+        </div>
+         </div>
+    
+    </div>
+    <div class="col-lg-5">
+<img src="./Images/about.png" alt="">
+    </div>
+</div>
+
+    </div>
+</section>
+ 
+<section id="milestone" class="bg-cover">
+<div class="container">
+    <div class="row text-center gy-4 justify-content-center">
+        <div class="col-lg-3">
+            <div class="display-4">
+                90K </div>
+        <p class="mb-0">Happy clients</p>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="display-4">
+                jhhvj </div>
+        <p class="mb-0">Lines of code</p>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="display-4">
+                jhhvj </div>
+        <p class="mb-0">Total download</p>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="display-4">
+                jhhvj </div>
+        <p class="mb-0">Happy clients</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<br><br><br><br>
+
+<div class="services text-center">
+    <h6>OUR SERVICES</h6>
+    <h2><b> What we provide?</h2></b>
+    <p> Contrary to popular belief, Lorem ipsum is not simply random text .it has <br>roots in a piece of classical latin literature from 45BC ,
+    making it over<br> 2000 years old</p>
+</div>
+        <div class="row">
+<div class="col-lg-4 col-sm-6">
+<div class="service-box">
+    <img src="./Images/icon1.png" alt="">
+    <h5>Digital Marketing</h5>
+    <p>Contrary to popular belief, Lorem ipsum is  not simply random text .it has roots in a piece of classical latin literature from 45BC 
+    making it over 2000 years old</p>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6">
+    <div class="service-box">
+        <img src="./Images/icon2.png" alt="">
+        <h5>Digital Marketing</h5>
+        <p>Contrary to popular belief, Lorem ipsum is not simply random text .it has roots in a piece of classical latin literature from 45BC 
+        making it over 2000 years old</p>
+    </div>
+</div>
+    <div class="col-lg-4 col-sm-6">
+        <div class="service-box">
+            <img src="./Images/icon3.png" alt="">
+            <h5>Digital Marketing</h5>
+            <p>Contrary to popular belief, Lorem ipsum is not simply random text .it has roots in a piece of classical latin literature from 45BC 
+            making it over 2000 years old</p>
+        </div>
+    </div>
+        <div class="col-lg-4 col-sm-6">
+            <div class="service-box">
+                <img src="./Images/icon4.png" alt="">
+                <h5>Digital Marketing</h5>
+                <p>Contrary to popular belief, Lorem ipsum is not simply random text .it has roots in a piece of classical latin literature from 45BC 
+                making it over 2000 years old</p>
+            </div>
+        </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="service-box">
+                    <img src="./Images/icon5.png" alt="">
+                    <h5>Digital Marketing</h5>
+                    <p>Contrary to popular belief, Lorem ipsum is not simply random text .it has roots in a piece of classical latin literature from 45BC 
+                    making it over 2000 years old</p>
+                </div>
+            </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-box">
+                        <img src="./Images/icon6.png" alt="">
+                        <h5>Digital Marketing</h5>
+                        <p>Contrary to popular belief, Lorem ipsum is not simply random text .it has roots in a piece of classical latin literature from 45BC 
+                        making it over 2000 years old</p>
+                    </div>
+    </div>
+</section>
+
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 intro text-center">
+<h6>OUR WORK</h6>
+<h2>Our Recent Work</h2>
+<p>Contrary to popular belief, Lorem ipsum is not simply random text .it has<br> roots in a piece of classical latin literature from 45BC 
+    making it over <br>2000 years old</p>
+            </div>
+        </div>
+    </div>
+    <div id="project-slider" class="owl-theme owl-carousel">
+<div class="project">
+    <img src="./Images/project1.jpg" width="30%" alt="">
+    <img src="./Images/project2.jpg" width="30%" alt="">
+    <img src="./Images/project3.jpg" width="30%" alt="">
+    <img src="./Images/project4.jpg" width="30%" alt="">
+    
+</div>
+    </div>
+</section>
+
+
+
+<script src="./bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
